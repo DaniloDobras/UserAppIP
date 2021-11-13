@@ -13,18 +13,23 @@
     <title>ETFBL IP AERO</title>
 </head>
 <body>
-
-    <div class="nav">
-           <label for="toggle">&#9776;</label>
-           <input type="checkbox" id="toggle">
-
-           <div class="menu">
-            <a href="#">Svi dolasci</a>
-            <a href="#">Svi odlasci</a>
-            <a href="#">Sve rezervacije</a>
-            <a href="#">Rezervacija leta</a>
-          <a href="#"><span>Prijavi se</span></a>
-           </div>
-    </div>
+	<header class="header">
+		<div class = "logo">
+			<h4>ETFBL<span>IPaero</span></h4>
+		</div>
+		
+	    <div class="nav">
+	           <label for="toggle">&#9776;</label>
+	           <input type="checkbox" id="toggle">
+	
+	           <div class="menu">
+	            <a href="#">Svi dolasci</a>
+	            <a href="#">Svi odlasci</a>
+	            <a href="#">Sve rezervacije</a>
+	            <a href="#">Rezervacija leta</a>
+	          <a href="#"><span>Prijavi se</span></a>
+	           </div>
+	    </div>
+	</header>
 </body>
 </html>

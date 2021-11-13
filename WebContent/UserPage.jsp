@@ -18,7 +18,6 @@
 </head>
 <body>
 
- 
 
     <div class="central-form">
        <div class="left" >
@@ -54,11 +53,8 @@
         </form>
     </div>
 
-    <footer>
-        <div class="footer-content">
-            <p>copyright &copy; 2021 ETFBL. designed by  <span>Danilo Dobras</span></p>
-        </div>
-    </footer>
-
 </body>
 </html>
+
+
+<jsp:include flush="true" page="WEB-INF/footer.jsp" />
