@@ -1,0 +1,171 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Montserrat';
+}
+
+li,a,button{
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: black;
+}
+
+.logo{
+    cursor: pointer;
+    color: #edf0f1;
+
+}
+
+.logo h1{
+    font-weight: 50;
+}
+
+.logo h1 span{
+    font-weight: 1000;
+}
+
+.nav-links{
+    list-style: none;
+}
+
+.nav-links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover{
+    color: rgba(0, 136, 169,1);
+}
+
+label{
+	color: white;
+}
+
+.login{
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.login:hover{
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
+
+.central-form{
+    padding:10px;
+    padding-bottom: 30px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 90vh;
+    background-image: url("images/neka.jpg");
+}
+
+.left{
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+
+.contact-form{
+   padding: 40px 0;
+   background-color: #0e0e0e;
+}
+
+.contact-form h1{
+    text-align: center;
+    color: #ddd;
+}
+
+
+.phone{
+  text-align: center;
+  color: #ddd;
+  padding-top: 20px;
+}
+
+.map-form{
+    display: flex;
+    float: left;
+    padding-left: 10px;
+    margin: auto;
+}
+
+iframe{
+    padding-left: 10px;
+    width: 100%;
+}
+.contact{
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+}
+
+.contact-text{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    background-color: #111;
+    padding: 20px 40px;
+    outline: none;
+    color: #ddd;
+    transition: 0.5s;
+   
+}
+
+.contact-text:hover{
+    box-shadow: 0 0 3px 3px rgba(0, 136, 169,1);
+}
+
+text-area.contact-text{
+   resize: none;
+    height: 120px;
+}
+
+.send-button{
+    float: right;
+    border: 0;
+    background:rgba(0, 136, 169,1) ;
+    color: #fff;
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+.send-button:hover{
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
+footer{
+    text-align: center;
+    color: #ddd;
+    background-color: #0e0e0e;
+    padding-top: 80px;
+}
+
+
+
